@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="17kohli1.jpg" type="image/x-icon">
+    <title>HandsOnTwo-Form</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./output.html">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your Name" name="username" id="name" autocomplete="true">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email"  placeholder="Enter email" name="email" id="email" autocomplete="true" required>
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" placeholder="Enter your password" name="pass" id="pass" autocomplete="true">
+        <br><br>
+        <label for="language" required>Language</label>
+        <br><br>
+        <input type="radio" name="language" value="React" id="react"> <label for="react">React</label>
+        <br>
+        <input type="radio" name="language" value="Angular" id="angular"> <label for="angular">Angular</label>
+        <br>
+        <input type="radio" name="language" value="Vue" id="vue"> <label for="vue">Vue</label>
+        <br><br>
+        <label for="course" required="required">Course</label>
+        <br><br>
+        <input type="checkbox" name="Course1" id="MERN" value="MERN" required="MERN"><label for="MERN">MERN</label>
+        <br>
+        <input type="checkbox" name="Course2" id="MEAN" value="MEAN"><label for="MEAN">MEAN</label>
+        <br>
+        <input type="checkbox" name="Course3" id="MEVN" value="MEVN"><label for="MEVN">MEVN</label>
+        <br><br>
+        <label for="drop">Field</label>
+        <br>
+        <select name="Field" id="drop" required>
+            <option value="select option">Select option</option>
+            <option value="FrontEnd">FrontEnd Developer</option>
+            <option value="BackEnd">BackEnd Developer</option>
+            <option value="FullStack">FullStack Developer</option>
+        </select>
+    <br><br>
+    <label for="desc"></label>
+    <textarea cols="40" rows="10" name="descr" id="desc" value="desc"></textarea>
+    <br><br>
+    <label for="phno">Phone Number</label>
+    <input type="tel" placeholder="Enter 10 digit number" name="phno" id="phno" pattern="[0-9]{10}">
+    <input type="submit" value="Submit">
+    </form>
+    <h2>TABLES</h2>
+    <a href="./table.html">Click Here</a>
+</body>
+</html>
+
